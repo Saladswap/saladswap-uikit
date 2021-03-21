@@ -23,7 +23,7 @@ const PriceLink = styled.a`
 
 const SaladPrice: React.FC<Props> = ({ saladPriceUsd }) => {
   return saladPriceUsd ? (
-    <PriceLink href="https://saladswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank">
+    <PriceLink href="https://saladswap.info/token/0x9EffAf5A3684c510263075e2E91d2594CcA671b2" target="_blank">
       <SaladRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${saladPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
